@@ -26,8 +26,6 @@ const Footer = () => {
         </div>
         <div className='colS'>
           <span className='credits'>Designed and Coded by <span className='name'>Hector Lopez Gonzalez</span></span>
-          <br />
-          <span className='credits'>Special Thanks to <span className='linkF' href='https://www.instagram.com/chaos.tinta/' onClick={() => { window.open("https://www.instagram.com/chaos.tinta/", '_blank') }}>Chaos En Tinta</span></span>
         </div>
       </div>
     </div>

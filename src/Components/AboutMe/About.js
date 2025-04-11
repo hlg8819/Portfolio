@@ -43,7 +43,7 @@ const About = () => {
           <img src={ImgMe1} alt='Me1' className='aboutImg' />
         </div>
         <p>
-          I'm Hector Lopez Gonzalez, a Mechatronics Engineer originally from Mexico City and currently based in the captivating city of Gold Coast, Australia.
+          I'm Hector Lopez Gonzalez, a Mechatronics Engineer originally from Mexico City and currently based in the of Wollongong, Australia.
           From a young age, my fascination with disassembling and reassembling objects to understand their inner workings ignited my passion for engineering.
           My journey in this field began with a thirst for knowledge and a desire to make an impact on the world through technology.
           I thrive on pushing myself and exploring uncharted territories to bring cutting-edge ideas to life.
