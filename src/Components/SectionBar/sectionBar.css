@@ -1,0 +1,70 @@
+.barBack {
+    width: 100%;
+    background-color: rgb(88, 88, 88);
+    position: sticky;
+    top: clamp(0px, 15vw, 5rem);
+    z-index: 2;
+    padding-top: 0.1vw;
+    padding-bottom: 0.1vw;
+}
+
+.barMenu {
+    width: 70vw;
+    justify-content: space-between;
+    display: flex;
+    row-gap: 1vw;
+    flex-wrap: wrap;
+    margin: 1vw auto;
+}
+
+.barMenuSingle {
+    width: 70vw;
+    margin: 1vw auto;
+    justify-content: center;
+    display: flex;
+}
+
+.barItem {
+    cursor: pointer;
+    font-size: 1vw;
+    position: relative;
+    font-family: "Questrial", sans-serif;
+    letter-spacing: 0.25vw;
+}
+
+.barItem::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    background: rgb(255, 184, 0);
+    transition: width 0.5s;
+}
+
+.barItem:hover::after {
+    width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+    .barBack {
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+        top: 5rem;
+    }
+
+    .barMenu {
+        margin: 1rem auto;
+        column-gap: 2rem;
+    }
+
+    .barMenuSingle {
+        margin: 1rem auto;
+    }
+
+    .barItem {
+        font-size: 1rem;
+        letter-spacing: 0.25rem;
+    }
+}

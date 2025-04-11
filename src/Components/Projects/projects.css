@@ -1,0 +1,46 @@
+.imgPro {
+    padding-bottom: 1rem;
+    cursor: pointer;
+    width: 30vw;
+}
+
+.colImg {
+    flex: 40%;
+    align-items: center;
+    float: left;
+}
+
+.colText {
+    flex: 60%;
+    text-align: justify;
+    float: left;
+}
+
+.projImg {
+    width: 35vw;
+}
+
+.fontProjects {
+    font-size: 2.8vw;
+    text-align: justify;
+}
+
+.smallFontProjects {
+    font-size: 2vw;
+    text-align: left;
+    display: flex;
+}
+
+@media screen and (min-width: 1200px) {
+    .imgTitle {
+        font-size: 1.5rem;
+    }
+
+    .fontProjects {
+        font-size: 2rem;
+    }
+
+    .smallFontProjects {
+        font-size: 1.5rem;
+    }
+}

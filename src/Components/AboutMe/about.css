@@ -1,0 +1,92 @@
+.aboutImg {
+    width: 40vw;
+    max-width: 18rem;
+    height: auto;
+    z-index: -1;
+}
+
+.skillsList {
+    list-style: square;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2vw;
+}
+
+.containerExp {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    overflow: auto;
+    border-bottom: 2px solid rgb(255, 184, 0);;
+}
+
+.expImg {
+    width: 25vw;
+    float: right;
+    max-width: 35rem;
+    cursor: pointer;
+}
+
+.expImgSmall {
+    width: 20vw;
+    float: right;
+    max-width: 20rem;
+    cursor: pointer;
+}
+
+.orgText {
+    font-size: 2.5vw;
+    font-family: "Questrial", sans-serif;
+    letter-spacing: 0.5vw;
+    text-decoration: underline;
+}
+
+.cityText {
+    font-size: 1.5vw;
+    font-family: "Tenor Sans", sans-serif;
+}
+
+.roleText {
+    font-family: "Ovo", sans-serif;
+    font-size: 3vw;
+    letter-spacing: 0.25vw;
+}
+
+.dateText {
+    font-size: 1.5vw;
+    font-family: "Tenor Sans", sans-serif;
+    font-style: italic;
+}
+
+@media screen and (min-width: 1200px) {
+    .divText1 {
+        width: 70vw;
+    }
+
+    .divText2 {
+        width: 70vw;
+        margin-left: 20vw;
+    }
+
+    .containerCV {
+        padding: 1rem 5vw;
+    }
+
+    .orgText {
+        font-size: 2rem;
+        letter-spacing: 0.5rem;
+    }
+
+    .cityText{
+        font-size: 1rem;
+    }
+
+    .roleText {
+        font-size: 2.5rem;
+        letter-spacing: 0.25rem;
+    }
+
+    .dateText{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,68 @@
+.contactForm {
+    color: #00ffff;
+    line-height: 1.5;
+    z-index: 1;
+    position: relative;
+}
+
+.btnDiv {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+input {
+    font-size: 2vw;
+    padding: 0.5rem;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    border-radius: 2rem;
+}
+
+textarea {
+    font-size: 2vw;
+    padding: 0.5rem;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    border-radius: 1rem;
+}
+
+input:valid {
+    border: 1px solid rgb(56, 231, 255);
+}
+
+textarea:valid {
+    border: 1px solid rgb(56, 231, 255);
+}
+
+.errorMsg {
+    color: rgb(255, 44, 44);
+    font-size: 1.75vw;
+}
+
+.contactImg{
+    width: 30vw;
+    height: auto;
+    max-width: 20rem;
+    position: absolute;
+    right: 0;
+    padding-top: 0vw;
+    margin-right: 5vw;
+    z-index: 0;
+}
+
+@media screen and (min-width:1200px) {
+    input {
+        font-size: 1.5rem;
+    }
+
+    textarea {
+        font-size: 1.5rem;
+    }
+
+    .errorMsg {
+        font-size: 1.25rem;
+    }
+
+}

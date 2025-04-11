@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /digitalcv
+Allow: /projects
+Allow: /allprojects
+Allow: /control
+Allow: /embedded
+Allow: /automation
+Allow: /vr
+Allow: /research
+Allow: /publications
+Allow: /contact

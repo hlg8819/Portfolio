@@ -1,0 +1,163 @@
+.App {
+  font-family: sans-serif;
+  background-color: rgb(58, 58, 58);
+  color: white;
+}
+
+.App-link {
+  color: rgb(51, 235, 255);
+}
+
+.minPage {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerH {
+  padding: 1vw 5vw;
+  overflow: auto;
+}
+
+.containerHBorder {
+  padding: 1vw 5vw;
+  border-bottom: solid 4px rgb(56, 231, 255);
+  border-bottom-style: double;
+  overflow: auto;
+}
+
+.centerDiv {
+  align-items: center;
+  text-align: center;
+  padding-top: 1vw;
+}
+
+.centerDivBorder {
+  align-items: center;
+  text-align: center;
+  padding-top: 1vw;
+  border-bottom: solid 4px rgb(56, 231, 255);
+  padding-bottom: 1vw;
+  border-bottom-style: double;
+}
+
+.divBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+  padding-top: 1vw;
+}
+
+.regularBtn {
+  background-color: rgb(56, 231, 255);
+  border-radius: 2rem;
+  padding: 1vw;
+  cursor: pointer;
+  font-family: "Ovo", serif;
+  letter-spacing: 0.2vw;
+  font-size: 2vw;
+  color: rgb(0, 0, 0);
+}
+
+.regularBtn:hover {
+  background-color: rgb(56, 151, 167);
+}
+
+.regularBtn:active {
+  color: rgb(255, 184, 0);
+}
+
+.title {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 5vw;
+  font-family: "Ovo", serif;
+  letter-spacing: 1vw;
+}
+
+.subtitle {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 3vw;
+  font-family: "Questrial", sans-serif;
+  letter-spacing: 0.5vw;
+}
+
+.divImgPL {
+  float: left;
+  width: auto;
+  margin-right: 1vw;
+}
+
+.divImgPR {
+  float: right;
+  width: auto;
+  margin-left: 1vw;
+}
+
+p {
+  font-size: max(2.5vw, 12px);
+  text-align: justify;
+  font-family: "Tenor Sans", sans-serif;
+}
+
+a:visited {
+  color: rgb(255, 184, 0);
+}
+
+a:link {
+  color: rgb(56, 231, 255);
+}
+
+svg:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) {
+  .containerH {
+    padding-bottom: 20px;
+  }
+
+  .containerHBorder {
+    padding-bottom: 20px;
+  }
+
+  .centerDiv {
+    padding-top: 10px;
+  }
+
+  .centerDivBorder {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .divBtn {
+    padding-top: 1rem;
+    gap: 3rem;
+  }
+
+  .regularBtn {
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    padding: 0.8rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  .title {
+    font-size: 4rem;
+    letter-spacing: 1rem;
+  }
+
+  .subtitle {
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+  }
+
+}
