@@ -143,12 +143,12 @@ const Contact = () => {
         <Grid container spacing={5}>
           <Grid item sm={12} md={4}>
             <p>
-              If you are interested in hiring me or discussing any relevant topics, projects, or professional matters, please feel free to reach out. I am open to new opportunities and collaborations.
+              If you are interested in discussing any relevant topics, projects, or professional matters, please feel free to reach out. I am open to new opportunities and collaborations.
             </p>
             <br />
             <p>Email: <a href='mailto: hec.lopezgonzalez@gmail.com'>hec.lopezgonzalez@gmail.com</a></p>
             <br />
-            <p>I look forward to the possibility of working together soon!</p>
+            <p>Looking forward to working together soon!</p>
           </Grid>
           <Grid item sm={12} md={8}>
             <img className='contactImg' src={BackImg} alt='ContImg' />

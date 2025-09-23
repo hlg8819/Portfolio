@@ -1,9 +1,24 @@
 import React from 'react';
 import IberoLogo from '../../../Assets/IberoLogo.png';
-import WollongongLogo from '../../../Assets/WollongongLogo.png'
+import WollongongLogo from '../../../Assets/WollongongLogo.png';
+import GreenwichLogo from '../../../Assets/GreenwichLogo.png';
 
 const Education = () => {
     const degrees = [
+        {
+            title: "Diploma of Business",
+            university: "Greenwich",
+            city: "Sydney, New South Wales, Australia",
+            GPA: null,
+            iniDate: "September/2024",
+            finDate: "August/2025",
+            awards: null,
+            thesis: null,
+            courses: "Budgeting, Digital Solutions, Data Analysis & Management.",
+            image: GreenwichLogo,
+            imageAlt: "GreenwichLogo",
+            url: "https://www.greenwichcollege.edu.au",
+        },
         {
             title: "Bachelor of Mechatronics and Production Engineering (Exchange Program)",
             university: "University of Wollongong",
@@ -13,7 +28,7 @@ const Education = () => {
             finDate: "December/2018",
             awards: null,
             thesis: null,
-            courses: "Robotics and Flexible Automation, Game Engine Essentials.",
+            courses: "Robotics and Flexible Automation, Game Engine Essentials, Ethical Hacking.",
             image: WollongongLogo,
             imageAlt: "WollongongLogo",
             url: "https://www.uow.edu.au",

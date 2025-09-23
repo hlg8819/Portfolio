@@ -41,11 +41,11 @@ const DigitalResume = () => {
     },
     {
       id: 6,
-      title: "Certificates",
+      title: "Publications",
     },
     {
       id: 7,
-      title: "Publications",
+      title: "Certificates",
     },
     {
       id: 8,
@@ -65,8 +65,8 @@ const DigitalResume = () => {
       <Languages />
       <Experience />
       <Education />
-      <Certifications />
       <Publications />
+      <Certifications />
       <Extracurricular />
       <ButtonsCV />
       <br />

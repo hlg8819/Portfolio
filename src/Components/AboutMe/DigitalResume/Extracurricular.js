@@ -9,6 +9,7 @@ const Extracurricular = () => {
         "Managed donations and resources for earthquake-affected zones in Mexico following the September 19, 2017 earthquake. (2017)",
         "Taught football classes for children in poverty and/or dangerous situations in the Malinalco community. (2019)",
         "Master's degree student representative, Postgraduate Technical Council, Universidad Iberoamericana. (2021 - 2022)",
+        "Football player for United Wolves AFC Division 1, First Grade, Australia (2024 – 2025)"
     ]
 
     return (

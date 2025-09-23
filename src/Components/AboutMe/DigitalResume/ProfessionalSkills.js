@@ -2,7 +2,7 @@ import { Grid } from '@mui/material'
 import React from 'react'
 
 const ProfessionalSkills = ({ ID = 0 }) => {
-    const skills = ["Leadership", "Problem-Solving", "Critical Thinking", "Adaptability", "Communication", "Creativity", "Innovation", "Quick Learning", "Stress Management"];
+    const skills = ["Innovation", "Problem-Solving", "Critical Thinking", "Cross-Functional Collaboration", "Project Leadership", "Adaptability", "Communication", "Mentoring", "International Experience", "Creativity", "Quick Learning", "Stress Management"];
     const colNo = 3;
     const mod = skills.length % colNo;
     const skillsL = mod < colNo / 2 ? Math.floor(skills.length / colNo) : Math.ceil(skills.length / colNo);

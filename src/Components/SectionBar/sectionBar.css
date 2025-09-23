@@ -55,7 +55,7 @@
     }
 
     .barMenu {
-        margin: 1rem auto;
+        margin: 0.5rem auto;
         column-gap: 2rem;
     }
 
@@ -64,7 +64,7 @@
     }
 
     .barItem {
-        font-size: 1rem;
+        font-size: 0.75rem;
         letter-spacing: 0.25rem;
     }
 }

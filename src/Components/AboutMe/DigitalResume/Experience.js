@@ -2,8 +2,8 @@ import React from 'react';
 import IberoLogo from '../../../Assets/IberoLogo.png';
 import UltrasistLogo from '../../../Assets/UltrasistLogo.png';
 import AllRobotLogo from '../../../Assets/AllRobot.png';
-import MyLogo from '../../../Assets/MyLogo.png'
-
+import MyLogo from '../../../Assets/MyLogo.png';
+import iOpenLogo from '../../../Assets/iOpenLogo.png';
 
 const Experience = () => {
   const jobs = [
@@ -15,7 +15,7 @@ const Experience = () => {
       finDate: ["December/2020"],
       summary: [
         <span>
-          •	Implemented process control systems, developed embedded software, programmed PLCs, selected and installed sensors and actuators, and designed mechanical parts for a 9 modules automation testing system and developed embedded software for 2 courses for professionals in the automotive industry.
+          •	Implemented process control systems, developed embedded software, programmed PLCs, selected and installed sensors and actuators, and designed mechanical parts for a 9 modules automation testing system and developed embedded software for 2 courses for professionals in the automotive industry.<br />
         </span>
       ],
       logo: AllRobotLogo,
@@ -30,8 +30,8 @@ const Experience = () => {
       finDate: ["June/2022"],
       summary: [
         <span>
-          •	Managed client relationships, designed process control systems, developed embedded software, programmed PLCs, designed mechanical parts, created prototypes and led teams to deliver multiple successful projects.<br />
-          •	Increased the productivity of an industrial face mask production system by 100% and installed 17 drone port systems across Mexico.
+          •	Managed client relationships, designed process control systems, developed embedded software, programmed PLCs, designed mechanical parts, created prototypes and led teams to deliver multiple successful projects.<br /><br />
+          •	Increased the productivity of an industrial face mask production system by 100% and installed 17 drone port systems across Mexico.<br />
         </span>
       ],
       logo: MyLogo,
@@ -55,12 +55,12 @@ const Experience = () => {
       ],
       summary: [
         <span>
-          •	Developed APIs in C# and contributed to front-end development using React.Js.<br />
+          •	Developed APIs in C# and contributed to front-end development using React.Js.<br /><br />
           •	Successfully delivered 2 confidential projects in 50% of the allocated time.
         </span>,
         <span>
-          •	Led a team of 6 programmers to deliver 2 web applications, conducted client meetings, managed client relationships, delegated tasks and developed front-end solutions using React.Js.<br />
-          •	Achieved a 50% increase in front-end performance through optimized code and user interface enhancements.
+          •	Led a team of 6 programmers to deliver 2 web applications, conducted client meetings, managed client relationships, delegated tasks and developed front-end solutions using React.Js.<br /><br />
+          •	Achieved a 50% increase in front-end performance through optimized code and user interface enhancements.<br />
         </span>
       ],
       logo: UltrasistLogo,
@@ -87,20 +87,36 @@ const Experience = () => {
       ],
       summary: [
         <span>
-          •	Programmed and implemented embedded systems for robotics and multi-agent systems for the Institute of Applied Research and Technology (INIAT), contributing to more than 5 successful projects.
+          •	Programmed and implemented embedded systems for robotics and multi-agent systems for the Institute of Applied Research and Technology (INIAT), contributing to more than 5 successful projects.<br />
         </span>,
         <span>
-          •	Developed 4 immersive virtual reality environments and 3 innovative haptic devices, resulting in 1 published paper, 2 conference presentations and 1 radio program feature.<br />
-          •	Mentored and provided technical guidance to postgraduate researchers on advanced control systems, robotics and virtual reality, contributing to 3 successful project completions.
+          •	Developed 4 immersive virtual reality environments and 3 innovative haptic devices, resulting in 1 published paper, 2 conference presentations and 1 radio program feature.<br /><br />
+          •	Mentored and provided technical guidance to postgraduate researchers on advanced control systems, robotics and virtual reality, contributing to 3 successful project completions.<br />
         </span>,
         <span>
-          •	Designed and conducted a master's-level course on Virtual Reality and Haptic Devices Programming.<br />
-          •	Delivered weekly lectures on Circuits Engineering and Embedded Systems Engineering to over 100 undergraduate students, achieving a 95%+ course satisfaction rate.
+          •	Designed and conducted a master's-level course on Virtual Reality and Haptic Devices Programming.<br /><br />
+          •	Delivered weekly lectures on Circuits Engineering and Embedded Systems Engineering to over 100 undergraduate students, achieving a 95%+ course satisfaction rate.<br />
         </span>,
       ],
       logo: IberoLogo,
       altLogo: "IberoLogo",
       url: "https://ibero.mx",
+    },
+    {
+      company: "iOpen",
+      city: "New South Wales, Australia",
+      roles: ["APPLICATIONS & SALES ENGINEER"],
+      iniDate: ["November/2024"],
+      finDate: ["current"],
+      summary: [
+        <span>
+          •	Designed, implemented and presented automation systems showcasing advanced control and IoT solutions.<br /><br />
+          •	Delivered training programs to enhance client adoption of innovative systems.<br />
+        </span>
+      ],
+      logo: iOpenLogo,
+      altLogo: "iOpenLogo",
+      url: "https://www.iopen.com.au",
     },
   ]
 
@@ -123,7 +139,7 @@ const Experience = () => {
                 return (
                   <p key={"TE" + indexRole}>
                     <span className='roleText'>{roleItem}</span><br />
-                    <span className='cityText'>{item.city}</span>&nbsp; &nbsp; &nbsp; &nbsp;<span className='dateText'>{item.iniDate.toReversed()[indexRole]} - {item.finDate.toReversed()[indexRole]}</span><br />
+                    <span className='cityText'>{item.city}</span>&nbsp; &nbsp; &nbsp; &nbsp;<span className='dateText'>{item.iniDate.toReversed()[indexRole]} - {item.finDate.toReversed()[indexRole]}</span><br /><br />
                     <span>{item.summary.toReversed()[indexRole]}<br /><br /></span>
                   </p>
                 );

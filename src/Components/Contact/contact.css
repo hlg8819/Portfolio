@@ -29,11 +29,11 @@ textarea {
 }
 
 input:valid {
-    border: 1px solid rgb(56, 231, 255);
+    border: 1px solid rgb(255, 184, 0);
 }
 
 textarea:valid {
-    border: 1px solid rgb(56, 231, 255);
+    border: 1px solid rgb(255, 184, 0);
 }
 
 .errorMsg {

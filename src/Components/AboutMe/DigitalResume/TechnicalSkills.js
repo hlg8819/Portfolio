@@ -2,7 +2,7 @@ import { Grid } from '@mui/material'
 import React from 'react'
 
 const TechnicalSkills = ({ ID = 0 }) => {
-    const skills = ["Control Systems", "Robotics", "Embedded Systems", "PLC Programming", "Circuits Design", "Software Development", "Virtual Reality", "Mechanical Design", "Prototyping", "Soldering", "Internet of Things", "Artificial Intelligence"];
+    const skills = ["Advanced Control Systems", "Robotics", "Embedded Systems", "Artificial Intelligence", "Circuits Design", "Instrumentation", "Virtual Reality", "Rapid Prototyping", "Human-Machine Interfaces", "Internet of Things (IoT)", "Artificial Intelligence", "Wearable Devices"];
     const colNo = 3;
     const mod = skills.length % colNo;
     const skillsL = mod < colNo / 2 ? Math.floor(skills.length / colNo) : Math.ceil(skills.length / colNo);

@@ -6,9 +6,9 @@ import SoftwareSkills from './SoftwareSkills'
 const CvSkills = () => {
   return (
     <>
-      <ProfessionalSkills ID={0} />
-      <TechnicalSkills ID={1} />
-      <SoftwareSkills ID={2} />
+      <TechnicalSkills ID={0} />
+      <SoftwareSkills ID={1} />
+      <ProfessionalSkills ID={2} />
     </>
   )
 }
