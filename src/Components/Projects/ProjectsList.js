@@ -9,6 +9,7 @@ import DronePortImg from '../../Assets/DronePortImage.png';
 import VRClassImg from '../../Assets/VRClassroom.png';
 import ThermalVRImg from '../../Assets/ThermalVr.png';
 import VRKayakImg from '../../Assets/VRKayak.png';
+import CogentImg from '../../Assets/CogentImage.png';
 //#endregion
 
 //#region PROJECTS
@@ -235,12 +236,40 @@ const ProjectsList = [
         publication: true,
         image: UruconImg,
         imageAlt: "ProjectImg",
-        title: "IEEE URUCON 2021",
+        title: "Formation Control for Thermal Multi-agent Systems - IEEE URUCON 2021",
         role: "Principal Author",
         summary:
             <span>
                 This paper extends consensus theory to develop a temperature-based formation scheme for thermal agents modeled as first-order linear systems. Utilizing a predefined communication topology and a control strategy derived from the Poisson's Heat Equation, the system ensures exponential convergence to desired temperature patterns. Evaluated through simulations and experiments with thermoelectric devices, the approach shows significant potential for advanced thermal control applications, enhancing system stability and efficiency.<br />
-                DOI: <a href='https://ieeexplore.ieee.org/document/9647108/authors#authors' target='_blank' rel="noreferrer">10.1109/URUCON53396.2021.9647108</a><br />
+                DOI: <a href='https://ieeexplore.ieee.org/document/9647108' target='_blank' rel="noreferrer">10.1109/URUCON53396.2021.9647108</a><br />
+            </span>,
+        responsibilities: null,
+        skills:
+            [
+                "Advanced Control Systems",
+                "Research",
+                "Simulation",
+                "MATLAB",
+                "Multi-agent systems",
+                "Prototyping",
+                "Thermodynamic Systems",
+            ],
+    },
+    {
+        automation: false,
+        control: true,
+        embedded: true,
+        vr: false,
+        research: true,
+        publication: true,
+        image: CogentImg,
+        imageAlt: "ProjectImg",
+        title: "Formation control of multi-agent thermal systems to render distributed temperature patterns",
+        role: "Author",
+        summary:
+            <span>
+                This study investigates a temperature-based formation control scheme for a group of thermal agents. The formation patterns are obtained from a numerical solution of Poisson’s Heat Equation in 2D, generating the desired temperature values for a set of cells of a decomposed solid material. The agents were modeled as first-order linear systems based on the behavior of flexible thermoelectric devices (FTED). Using a complete inter-agent communication topology and assigning leader agents, a formation scheme is designed to converge to the formation pattern and satisfy the inter-agent temperature offsets. It is proven that the formation errors converge exponentially to zero with the existence of at least one leader. The approach is demonstrated by numerical simulations and experimental work using FTED as a proof of concept for applications in immersive virtual or augmented reality systems, medical rehabilitation, robotics, etc.<br />
+                DOI: <a href='https://www.tandfonline.com/doi/full/10.1080/23311916.2025.2572298?scroll=top&needAccess=true#abstract' target='_blank' rel="noreferrer">10.1080/23311916.2025.2572298</a><br />
             </span>,
         responsibilities: null,
         skills:

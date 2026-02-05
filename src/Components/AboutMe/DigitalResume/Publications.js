@@ -7,6 +7,12 @@ const Publications = () => {
             doi: "10.1109/URUCON53396.2021.9647108",
             url: "https://ieeexplore.ieee.org/document/9647108",
             publisher: "IEEE",
+        },
+        {
+            title: "Formation control of multi-agent thermal systems to render distributed temperature patterns",
+            doi: "10.1080/23311916.2025.2572298",
+            url: "https://www.tandfonline.com/doi/full/10.1080/23311916.2025.2572298?scroll=top&needAccess=true#abstract",
+            publisher: "Cogent Engineering",
         }
     ]
 
